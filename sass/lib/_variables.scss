@@ -1,0 +1,60 @@
+/**
+ * @file
+ * All the variables we are using in our styling are listed here.
+ */
+
+@import "breakpoint";
+
+// These 2 variables are copies of ones used in Compass' Vertical Rhythm module.
+
+  // The base font size.
+  $base-font-size: 16px !default;
+
+  // The base line height determines the basic unit of vertical rhythm.
+  $base-line-height: 18px !default;
+
+// These 2 variables are copies of ones used in Compass' support module.
+
+  // Set this to true to add support for IE 6.
+  $legacy-support-for-ie6: false !default;
+
+  // Set this to true to add support for IE 7.
+  $legacy-support-for-ie7: false !default;
+
+
+// Set this to true to force CSS output to exactly match normalize.css.
+$strict-normalize: true !default;
+
+// Font Families.
+$font1: 'Droid Serif', Georgia, serif;
+$font2: Oswald, sans-serif;
+
+// The default font family.
+$base-font-family: $font1, sans-serif !default;
+$heading-font: $font2;
+
+// The font sizes for h1-h6.
+$h1-font-size: 2  * $base-font-size !default;
+$h2-font-size: 1.5  * $base-font-size !default;
+$h3-font-size: 1.17 * $base-font-size !default;
+$h4-font-size: 1  * $base-font-size !default;
+$h5-font-size: 0.83 * $base-font-size !default;
+$h6-font-size: 0.67 * $base-font-size !default;
+
+// Standard Colours
+$black:     #000;
+$white:     #fff;
+
+// Custom Colours
+$col1:  #054f51;
+$col2:  #FFE03A;
+$col3:  #333333;
+$col4:  #dfdfdf;
+
+// The amount lists and blockquotes are indented.
+$indent-amount: 40px !default;
+
+// breakpoints
+$small:   1px 520px;
+$medium:  769px;
+$large:   961px;

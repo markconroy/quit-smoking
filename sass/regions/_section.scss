@@ -1,0 +1,28 @@
+section {
+  background: $col1;
+  border-bottom: 8px dashed $col2;
+  border-top: 8px dashed $col2;
+  clear: both;
+  color: $col4;
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+  overflow: hidden;
+}
+
+section .content {
+  align-self: center;
+}
+
+section {
+  a {
+    &.btn {
+      @extend %btn;
+    }
+  }
+}
+
+section .btn {
+  @extend %btn;
+  margin-top: 1rem;
+}

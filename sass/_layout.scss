@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Zen Grids
+ **/
+
+$zen-column-count: 12;
+$zen-gutter-width: 20px;
+
+.contained {
+  clear: both;
+  margin: auto;
+  max-width: 1024px;
+  padding: 0 1rem;
+  text-align: center;
+}
