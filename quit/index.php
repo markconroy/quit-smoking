@@ -14,8 +14,8 @@
         <div class="inner">
         <p>Do you currenty have a lit cigarette?</p>
         <div class="replies">
-          <div class="yes btn">Yes</div>
-          <div class="no btn">No</div>
+          <button class="yes btn">Yes</button>
+          <button class="no btn">No</button>
         </div>
         <div id="reply"></div>
       </div>
